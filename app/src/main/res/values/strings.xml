@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Reviews</string>
+
+    <!--MainActivity-->
+    <string name="home">Home</string>
+    <string name="category">Category</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="my_profile">My Profile</string>
+    <string name="share_app">Share App</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="sign_out">Sign Out</string>
+
+
+    <!--Constants-->
+    <string name="sample">Sample</string>
+    <string name="sample_mail">sample@gmail.com</string>
+    <string name="shreath_dresses">Shreath Dresses</string>
+    <string name="tunic_dresses">Tunic Dresses</string>
+    <string name="asymetric_dresses">Asymetric Dresses</string>
+    <string name="a_line_dresses">A-Line Dresses</string>
+    <string name="dungaree_dresses">Dungaree Dresses</string>
+    <string name="spaghetti_dresses">Spaghetti Dresses</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification">Notification</string>
+    <string name="add_product">Add Product</string>
+    <string name="key_word">Keyword</string>
+    <string name="top_rating">Top Rating</string>
+    <string name="makeup">Makeup</string>
+    <string name="cloths">Clothes</string>
+    <string name="apply">Apply</string>
+    <string name="login">Login</string>
+
+    <!--Add Review-->
+    <string name="upload_photos">Upload Photos</string>
+    <string name="product_desc">Product Description</string>
+    <string name="category_name">Category Name</string>
+    <string name="subcategory_name">Sub category Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="item_id">ItemID</string>
+    <string name="item_link">Item Link</string>
+    <string name="add_product_and_review"><![CDATA[Add Product & Review]]></string>
+    <string name="signup">Signup</string>
+    <string name="give_your_rating">Give your rating</string>
+    <string name="over_all_rating">Overall Rating</string>
+    <string name="quality_rating">Quality Rating</string>
+    <string name="price_rating">Price Rating</string>
+    <string name="benefit_rating">Benefit Rating</string>
+    <string name="give_more_info">Give more information about the product...</string>
+    <string name="add_your_review">Add Your Review</string>
+    <string name="reviews">Reviews</string>
+    <string name="details">Details</string>
+    <string name="description">Description</string>
+    <string name="your_rating">Your rating!</string>
+    <string name="rating_txt">We would love to hear more about your experience!</string>
+    <string name="link">Link</string>
+</resources>

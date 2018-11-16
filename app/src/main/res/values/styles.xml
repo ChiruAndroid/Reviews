@@ -1,0 +1,123 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme_App" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- No Action Bar -->
+    <style name="AppTheme_App.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="actionButtonStyle">@style/Base.AppTheme.Toolbar.ActionButton</item>
+        <!--  It should be true otherwise action mode will not overlay toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+        <!--  For Custom Action Mode Background Color/Drawable -->
+        <item name="actionModeBackground">@color/colorPrimaryDark</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!--FullScreen Theme-->
+    <style name="AppTheme_App.NoActionBar.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+
+    <!--Options menu style -->
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Required for pre-Lollipop. -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4.0dip</item>
+        <!-- Required for Lollipop. -->
+        <item name="android:overlapAnchor" tools:targetApi="lollipop">false</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!-- this will be applied regardless api version -->
+    <style name="Base.AppTheme.Toolbar.ActionButton" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!--Transparent Theme-->
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#33000000
+        </item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <!--Navigation menu-->
+    <style name="Text_SubHead">
+        <item name="android:capitalize">characters</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/boldText</item>
+        <item name="android:paddingRight">18dp</item>
+    </style>
+
+    <!--Edit text in login-->
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/regularText</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="android:textColorHint">@color/hintColor</item>
+    </style>
+
+    <!--Sub headings in home page-->
+    <style name="SubTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/hintColor</item>
+    </style>
+
+    <!--Details in List page-->
+    <style name="Text_Detail">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/regularText</item>
+    </style>
+
+    <!--Red Button-->
+    <style name="Button_Red">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/red_btn_bg</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>
