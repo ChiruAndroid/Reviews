@@ -12,4 +12,5 @@
     <color name="regularText">#272727</color>
     <color name="mediumText">#414141</color>
     <color name="thinText">#7F7F7F</color>
+    <color name="redLiteColor">#F97071</color>
 </resources>

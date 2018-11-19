@@ -68,14 +68,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="20dp" />
 
-            <TextView
-                android:id="@+id/txt_menu_category"
-                style="@style/Text_SubHead"
-                android:text="@string/category" />
+            <!--<TextView-->
+                <!--android:id="@+id/txt_menu_category"-->
+                <!--style="@style/Text_SubHead"-->
+                <!--android:text="@string/store" />-->
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
+            <!--<Space-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp" />-->
 
             <TextView
                 android:id="@+id/txt_menu_reviews"

@@ -35,7 +35,7 @@ public class CustomResideMenu extends FrameLayout {
     private static final int PRESSED_DONE = 4;
     private static final int PRESSED_MOVE_VERTICAL = 5;
 
-    public TextView txt_menu_name, txt_menu_email, txt_menu_category, txt_menu_reviews, txt_menu_signout;
+    public TextView txt_menu_name, txt_menu_email, txt_menu_reviews, txt_menu_signout;
     public TextView txt_menu_home, txt_menu_profile, txt_menu_share_app, txt_menu_terms;
     public CircleImageView img_menu_pro_pic;
     public RelativeLayout layout_menu;
@@ -107,7 +107,6 @@ public class CustomResideMenu extends FrameLayout {
         txt_menu_email = (TextView) findViewById(R.id.txt_menu_email);
         txt_menu_home = (TextView) findViewById(R.id.txt_menu_home);
         img_menu_pro_pic = (CircleImageView) findViewById(R.id.img_menu_pro_pic);
-        txt_menu_category = (TextView) findViewById(R.id.txt_menu_category);
         txt_menu_reviews = (TextView) findViewById(R.id.txt_menu_reviews);
         txt_menu_profile = (TextView) findViewById(R.id.txt_menu_profile);
         txt_menu_share_app = (TextView) findViewById(R.id.txt_menu_share_app);

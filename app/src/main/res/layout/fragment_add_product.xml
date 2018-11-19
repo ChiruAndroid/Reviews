@@ -82,7 +82,7 @@
                 <TextView
                     style="@style/SubTitle"
                     android:layout_marginTop="20dp"
-                    android:text="@string/category_name" />
+                    android:text="@string/store_name" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -131,30 +131,30 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <TextView
-                    style="@style/SubTitle"
-                    android:layout_marginTop="20dp"
-                    android:text="@string/subcategory_name" />
+                <!--<TextView-->
+                    <!--style="@style/SubTitle"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:text="@string/subcategory_name" />-->
 
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:orientation="vertical">-->
 
-                    <EditText
-                        style="@style/EditText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/cloths" />
+                    <!--<EditText-->
+                        <!--style="@style/EditText"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/cloths" />-->
 
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lineColor" />
-                </LinearLayout>
+                    <!--<View-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:background="@color/lineColor" />-->
+                <!--</LinearLayout>-->
 
                 <TextView
                     style="@style/SubTitle"
@@ -232,7 +232,7 @@
 
                 <Button
                     android:id="@+id/add_product_review"
-                    style="@style/Button_Red"
+                    style="@style/Button_Red1"
                     android:layout_marginTop="20dp"
                     android:text="@string/add_product_and_review" />
             </LinearLayout>

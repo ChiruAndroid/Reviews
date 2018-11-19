@@ -72,8 +72,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -166,8 +166,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
                     android:layout_marginBottom="4dp"
+                    android:layout_marginTop="8dp"
                     android:text="426,742 Reviews"
                     android:textColor="@color/lightText"
                     android:textSize="14dp"
@@ -185,8 +185,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -393,8 +393,8 @@
             <TextView
                 style="@style/Text_SubHead"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/description" />
 
             <LinearLayout
@@ -422,6 +422,26 @@
                 android:layout_marginRight="20dp"
                 android:text="Lorem ipsum is a pseudo text used in typography layout printing in place of English design." />
 
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:background="@color/lineColor" />-->
+
+            <TextView
+                style="@style/Text_SubHead"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/link" />
+
+            <TextView
+                style="@style/Text_Detail"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="https://saudi.souq.com/sa-en/champion-sport-top-for-men-34044993/i/" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -431,16 +451,16 @@
             <TextView
                 style="@style/Text_SubHead"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/your_rating" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -456,9 +476,9 @@
                     <ImageView
                         android:layout_width="45dp"
                         android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginRight="5dp"
                         android:layout_marginBottom="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
                         android:src="@drawable/star_one_unfill" />
 
                     <ImageView
@@ -489,8 +509,8 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
                     android:background="@color/lineColor" />
 
                 <TextView
@@ -506,9 +526,9 @@
                     <ImageView
                         android:layout_width="45dp"
                         android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginRight="5dp"
                         android:layout_marginBottom="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
                         android:src="@drawable/star_one_unfill" />
 
                     <ImageView
@@ -539,8 +559,8 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
                     android:background="@color/lineColor" />
 
                 <TextView
@@ -556,9 +576,9 @@
                     <ImageView
                         android:layout_width="45dp"
                         android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginRight="5dp"
                         android:layout_marginBottom="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
                         android:src="@drawable/star_one_unfill" />
 
                     <ImageView
@@ -594,32 +614,18 @@
                 <TextView
                     android:id="@+id/details_add_review_btn"
                     style="@style/SubTitle"
+                    android:layout_marginBottom="30dp"
                     android:layout_marginTop="15dp"
                     android:text="@string/add_your_review"
                     android:textColor="@color/colorPrimaryDark" />
             </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@color/lineColor" />
-
-            <TextView
-                style="@style/Text_SubHead"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="20dp"
-                android:text="@string/link" />
-
-            <TextView
-                style="@style/Text_Detail"
-                android:layout_width="match_parent"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="30dp"
-                android:text="https://saudi.souq.com/sa-en/champion-sport-top-for-men-34044993/i/" />
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@color/lineColor" />-->
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

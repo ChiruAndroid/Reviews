@@ -55,4 +55,6 @@
     <string name="your_rating">Your rating!</string>
     <string name="rating_txt">We would love to hear more about your experience!</string>
     <string name="link">Link</string>
+    <string name="store">Store</string>
+    <string name="store_name">Store Name</string>
 </resources>

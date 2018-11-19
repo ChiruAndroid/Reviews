@@ -96,14 +96,14 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         resideMenu.txt_menu_name.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
         resideMenu.txt_menu_email.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
         resideMenu.txt_menu_home.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
-        resideMenu.txt_menu_category.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
+//        resideMenu.txt_menu_category.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
         resideMenu.txt_menu_reviews.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
         resideMenu.txt_menu_share_app.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
         resideMenu.txt_menu_terms.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
         resideMenu.txt_menu_signout.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Poppins-Regular.ttf"));
 
         resideMenu.txt_menu_home.setOnClickListener(this);
-        resideMenu.txt_menu_category.setOnClickListener(this);
+//        resideMenu.txt_menu_category.setOnClickListener(this);
         resideMenu.txt_menu_reviews.setOnClickListener(this);
         resideMenu.txt_menu_profile.setOnClickListener(this);
         resideMenu.txt_menu_share_app.setOnClickListener(this);
@@ -120,9 +120,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     public void onClick(View v) {
         if (v == resideMenu.txt_menu_home) {
             changeFragment(new HomeFragment());
-        } else if (v == resideMenu.txt_menu_category) {
+        } /*else if (v == resideMenu.txt_menu_category) {
             changeFragment(new CategoryFragment());
-        } else if (v == resideMenu.txt_menu_reviews) {
+        }*/ else if (v == resideMenu.txt_menu_reviews) {
             if (resideMenu.isOpened()) {
                 resideMenu.closeMenu();
             }
